@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * puts - function that prints only one character out
+ * puts2 - function that prints only one character out word
+ * starting with the first one
  * @str: input
  * Return: print
  */
@@ -11,7 +12,7 @@ void puts2(char *str)
 	char *y = str;
 	int o;
 
-	while (*y != '\n')
+	while (*y != '\0')
 	{
 		y++;
 		longi++;
