@@ -4,7 +4,7 @@ void __attribute__((constructor)) hare(void);
 
 /**
  * hare - prints a sentence before the main execution
- * 
+ *
  */
 void hare(void)
 {
